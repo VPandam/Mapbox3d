@@ -1,0 +1,114 @@
+{
+    "asset": {
+        "generator": "https://3dviewer.net",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0
+        }
+    ],
+    "materials": [
+        {
+            "name": "Material",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5775804404214573,
+                    0.5775804404214573,
+                    0.5775804404214573,
+                    1
+                ]
+            },
+            "emissiveFactor": [
+                0,
+                0,
+                0
+            ],
+            "doubleSided": true,
+            "alphaMode": "OPAQUE"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Buildings",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2
+                    },
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 0
+                }
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "model.bin",
+            "byteLength": 2781972
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 548196,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 548196,
+            "byteLength": 1116888,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1665084,
+            "byteLength": 1116888,
+            "target": 34962
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 137049,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 93074,
+            "min": [
+                -312.647491,
+                -311.209991,
+                228.918488
+            ],
+            "max": [
+                143.914505,
+                296.90799,
+                254.720886
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 93074,
+            "type": "VEC3"
+        }
+    ]
+}
