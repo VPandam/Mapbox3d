@@ -84,7 +84,7 @@ const App = () => {
 
       const models = []
       const loader = new GLTFLoader()
-      loader.load("../public/LorientBuildings.glb", (gltf) => {
+      loader.load("../public/stesteve_00000.glb", (gltf) => {
         // loader.load("../public/StEsteve_Lod2_v0.0.1.glb", (gltf) => {
         const model = gltf.scene
         console.log("model: ", model)
@@ -288,7 +288,7 @@ const App = () => {
         object.material.needsUpdate = true // Marca el material como necesitando ser actualizado
         object.scale.set(2, 2, 2)
         object.matrixWorldNeedsUpdate = true
-         // object.material.color.set(Math.random() * 0xffffff) // Cambiar a un color aleatorio
+        // object.material.color.set(Math.random() * 0xffffff) // Cambiar a un color aleatorio
         if (selectedObject !== object) {
           setSelectedObject(object)
         }
